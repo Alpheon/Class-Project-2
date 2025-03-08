@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-1590892163619832949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b826785bd79bdb43a127d008f406406, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Description: 
+  PercentageChance: 50
+  Damage: 2
+  Time: 15
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a96cf71494313b42b0e2459b8aa90d2, type: 3}
+  m_Name: The Harvester
+  m_EditorClassIdentifier: 
+  ItemName: The Harvester
+  ItemSprite: {fileID: 21300000, guid: 4ebe3495b584a3f47bb652e3c90d7480, type: 3}
+  Description: A broken  OP weapon
+  WorldObjectPrefab: {fileID: 8115497767533682948, guid: 2ce28e09982cac64fa114271e3976374,
+    type: 3}
+  Slot: 666
+  MinimumStrength: 8
+  MinimumAgility: 0
+  MinimumDefense: 0
+  EquippedEffects: []
+  HitSounds:
+  - {fileID: 8300000, guid: c35407837ab202c49a3a941eecf0fbe1, type: 3}
+  SwingSounds:
+  - {fileID: 8300000, guid: 8106396419248144e98bf39bd251772e, type: 3}
+  Stats:
+    Speed: 2
+    MinimumDamage: 3
+    MaximumDamage: 19
+    MaxRange: 1.5
+  AttackEffects:
+  - {fileID: 8023657794509130752}
+  - {fileID: -1590892163619832949}
+--- !u!114 &8023657794509130752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 640a7a81c347d4a56876b490b9117808, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Description: 
+  PercentageChance: 50
+  Damage: 1
+  Time: 10
